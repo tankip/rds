@@ -1,0 +1,18 @@
+sudo: required
+language: node_js
+node_js:
+- '6'
+- node
+before_install:
+  - export TZ=Africa/Nairobi
+  - date
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-5
+script:
+- npm test
+env:
+  - CXX=g++-5

@@ -1,0 +1,16 @@
+{
+  "name": "rds",
+  "version": "1.0.0",
+  "description": "Some app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rds"
+  },
+  "author": "rtankip@gmail.com",
+  "license": "ISC",
+  "keywords": []
+}
